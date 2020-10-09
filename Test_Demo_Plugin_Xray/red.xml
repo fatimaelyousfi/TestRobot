@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>1</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="Selenium2Library" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._alert" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._alert._AlertKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._browsermanagement" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._browsermanagement._BrowserManagementKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._cookie" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._cookie._CookieKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._element" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._element._ElementKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._formelement" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._formelement._FormElementKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._javascript" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._javascript._JavaScriptKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._logging" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._logging._LoggingKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._runonfailure" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._runonfailure._RunOnFailureKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._screenshot" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._screenshot._ScreenshotKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._selectelement" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._selectelement._SelectElementKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._tableelement" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._tableelement._TableElementKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._waiting" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords._waiting._WaitingKeywords" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords.keywordgroup" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords.keywordgroup.KeywordGroup" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.keywords.keywordgroup.KeywordGroupMetaClass" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.customlocator" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.customlocator.CustomLocator" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.elementfinder" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.elementfinder.ElementFinder" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.tableelementfinder" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.tableelementfinder.TableElementFinder" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.windowmanager" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.locators.windowmanager.WindowManager" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.browsercache" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.browsercache.BrowserCache" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.event" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.event.Event" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.scope_event" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.scope_event.ScopeEnd" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.scope_event.ScopeEvent" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.events.scope_event.ScopeStart" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.librarylistener" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.utils.librarylistener.LibraryListener" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.version" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.webdrivermonkeypatches" path="C:/Applications/Python27/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="Selenium2Library.webdrivermonkeypatches.WebDriverMonkeyPatches" path="C:/Applications/Python27/Lib/site-packages"/>
+    <pythonpath/>
+    <classpath/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
+    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
+    <isLibrariesAutoDiscoveringSummaryWindowEnabled>true</isLibrariesAutoDiscoveringSummaryWindowEnabled>
+</projectConfiguration>

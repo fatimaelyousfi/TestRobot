@@ -1,0 +1,5 @@
+*** Variables ***
+${Recherche_RDC}    //*[@id="header__rdc-search-field"]
+${Recherche_Ok_RDC}    xpath=/html/body/header/div[3]/div/form/div[1]/button
+${prix_min}    //*[@id="prix-min"]
+${prix_max}    //*[@id="prix-max"]

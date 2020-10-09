@@ -1,0 +1,14 @@
+*** Settings ***
+Library           Selenium2Library
+Library           OperatingSystem
+
+Resource          ../Config/ConfigGlobal.txt
+  
+
+*** Keywords ***
+
+Get Grid Selenium Parameters
+    Set Global Variable    ${executionOnGrid}    ${RFWk_Par1}
+
+Set Proxy
+    Set Environment Variable    no_proxy    127.0.0.1  

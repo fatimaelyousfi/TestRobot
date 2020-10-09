@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20200507 15:35:44.715" generator="Robot 3.0 (Python 2.7.10 on win32)">
+<suite source="C:\CAT_TEST_ROBOT\Test_Demo_Plugin_Xray\TestSuite" id="s1" name="TestSuite">
+<suite source="C:\CAT_TEST_ROBOT\Test_Demo_Plugin_Xray\TestSuite\ABTS01_Recherche_AMZ" id="s1-s1" name="ABTS01 Recherche AMZ">
+<suite source="C:\CAT_TEST_ROBOT\Test_Demo_Plugin_Xray\TestSuite\ABTS01_Recherche_AMZ\Testsuite.robot" id="s1-s1-s1" name="Testsuite">
+<test id="s1-s1-s1-t1" name="ABTS01-TC01-Connexion_Amazon">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.amazon.com/</arg>
+</arguments>
+<msg timestamp="20200507 15:35:46.058" level="INFO">Opening browser 'firefox' to base url 'https://www.amazon.com/'</msg>
+<status status="PASS" endtime="20200507 15:35:54.978" starttime="20200507 15:35:46.058"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>amazon</arg>
+</arguments>
+<status status="PASS" endtime="20200507 15:35:55.119" starttime="20200507 15:35:54.978"></status>
+</kw>
+<status status="PASS" endtime="20200507 15:35:55.119" critical="yes" starttime="20200507 15:35:46.058"></status>
+</test>
+<test id="s1-s1-s1-t2" name="ABTS01-TC02-Recherche Mini Robot">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${Recherche}</arg>
+<arg>mini robot</arg>
+</arguments>
+<msg timestamp="20200507 15:35:55.119" level="INFO">Typing text 'mini robot' into text field '//*[@id="twotabsearchtextbox"]'</msg>
+<status status="PASS" endtime="20200507 15:35:56.525" starttime="20200507 15:35:55.119"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${Recherche_Ok}</arg>
+</arguments>
+<msg timestamp="20200507 15:35:56.525" level="INFO">Clicking element 'xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input'.</msg>
+<status status="PASS" endtime="20200507 15:35:59.321" starttime="20200507 15:35:56.525"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${fille}</arg>
+</arguments>
+<msg timestamp="20200507 15:35:59.321" level="INFO">Clicking element 'xpath=/html/body/div[1]/div[1]/div[1]/div[1]/div/div[3]/span/div/div[4]/ul[3]/li[2]/span/a/span'.</msg>
+<status status="PASS" endtime="20200507 15:36:01.164" starttime="20200507 15:35:59.321"></status>
+</kw>
+<status status="PASS" endtime="20200507 15:36:01.164" critical="yes" starttime="20200507 15:35:55.119"></status>
+</test>
+<test id="s1-s1-s1-t3" name="ABTS01-TC03-Fermeture De La Page Amazon">
+<kw name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20200507 15:36:02.054" starttime="20200507 15:36:01.164"></status>
+</kw>
+<status status="PASS" endtime="20200507 15:36:02.054" critical="yes" starttime="20200507 15:36:01.164"></status>
+</test>
+<status status="PASS" endtime="20200507 15:36:02.054" starttime="20200507 15:35:44.809"></status>
+</suite>
+<status status="PASS" endtime="20200507 15:36:02.054" starttime="20200507 15:35:44.809"></status>
+</suite>
+<suite source="C:\CAT_TEST_ROBOT\Test_Demo_Plugin_Xray\TestSuite\ABTS02_Recherche_RDC" id="s1-s2" name="ABTS02 Recherche RDC">
+<suite source="C:\CAT_TEST_ROBOT\Test_Demo_Plugin_Xray\TestSuite\ABTS02_Recherche_RDC\testsuite.robot" id="s1-s2-s1" name="Testsuite">
+<test id="s1-s2-s1-t1" name="ABTS02-TC01-Connexion RDC">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>https://www.rueducommerce.fr</arg>
+</arguments>
+<msg timestamp="20200507 15:36:02.070" level="INFO">Opening browser 'firefox' to base url 'https://www.rueducommerce.fr'</msg>
+<status status="PASS" endtime="20200507 15:36:08.968" starttime="20200507 15:36:02.070"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Drive</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20200507 15:36:14.299" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200507 15:36:14.299" starttime="20200507 15:36:14.127"></status>
+</kw>
+<msg timestamp="20200507 15:36:14.299" level="FAIL">Text 'Drive' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20200507 15:36:14.299" starttime="20200507 15:36:08.968"></status>
+</kw>
+<status status="FAIL" endtime="20200507 15:36:14.299" critical="yes" starttime="20200507 15:36:02.070">Text 'Drive' did not appear in 5 seconds</status>
+</test>
+<test id="s1-s2-s1-t2" name="ABTS02-TC02-Recherche Pc Portable">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${Recherche_RDC}</arg>
+<arg>pc portable</arg>
+</arguments>
+<msg timestamp="20200507 15:36:14.315" level="INFO">Typing text 'pc portable' into text field '//*[@id="header__rdc-search-field"]'</msg>
+<status status="PASS" endtime="20200507 15:36:14.362" starttime="20200507 15:36:14.315"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>${Recherche_Ok_RDC}</arg>
+</arguments>
+<msg timestamp="20200507 15:36:14.362" level="INFO">Clicking button 'xpath=/html/body/header/div[3]/div/form/div[1]/button'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20200507 15:36:14.565" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20200507 15:36:14.565" starttime="20200507 15:36:14.377"></status>
+</kw>
+<msg timestamp="20200507 15:36:14.565" level="FAIL">ValueError: Element locator 'xpath=/html/body/header/div[3]/div/form/div[1]/button' did not match any elements.</msg>
+<status status="FAIL" endtime="20200507 15:36:14.565" starttime="20200507 15:36:14.362"></status>
+</kw>
+<status status="FAIL" endtime="20200507 15:36:14.565" critical="yes" starttime="20200507 15:36:14.315">ValueError: Element locator 'xpath=/html/body/header/div[3]/div/form/div[1]/button' did not match any elements.</status>
+</test>
+<test id="s1-s2-s1-t3" name="ABTS02-TC03-Rechercher La Marque Du Pc">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${marque}</arg>
+</arguments>
+<msg timestamp="20200507 15:36:14.580" level="FAIL">Variable '${marque}' not found.</msg>
+<status status="FAIL" endtime="20200507 15:36:14.580" starttime="20200507 15:36:14.580"></status>
+</kw>
+<status status="FAIL" endtime="20200507 15:36:14.580" critical="yes" starttime="20200507 15:36:14.580">Variable '${marque}' not found.</status>
+</test>
+<status status="FAIL" endtime="20200507 15:36:14.580" starttime="20200507 15:36:02.054"></status>
+</suite>
+<status status="FAIL" endtime="20200507 15:36:14.580" starttime="20200507 15:36:02.054"></status>
+</suite>
+<status status="FAIL" endtime="20200507 15:36:14.580" starttime="20200507 15:35:44.730"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="3" pass="3">Critical Tests</stat>
+<stat fail="3" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="3" id="s1" name="TestSuite" pass="3">TestSuite</stat>
+<stat fail="0" id="s1-s1" name="ABTS01 Recherche AMZ" pass="3">TestSuite.ABTS01 Recherche AMZ</stat>
+<stat fail="0" id="s1-s1-s1" name="Testsuite" pass="3">TestSuite.ABTS01 Recherche AMZ.Testsuite</stat>
+<stat fail="3" id="s1-s2" name="ABTS02 Recherche RDC" pass="0">TestSuite.ABTS02 Recherche RDC</stat>
+<stat fail="3" id="s1-s2-s1" name="Testsuite" pass="0">TestSuite.ABTS02 Recherche RDC.Testsuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
